@@ -13,7 +13,7 @@ public:
 	Human();
 	Human(string surname, string name, string middlename, int age);
 	virtual void print() =0;
-	~Human();
+	virtual ~Human() {};
 };
 
 class Student : public Human {
